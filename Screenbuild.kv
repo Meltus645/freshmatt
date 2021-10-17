@@ -1,0 +1,237 @@
+MDScreen:
+	MDBoxLayout:
+		orientation: 'vertical'
+		MDToolbar:
+			title: 'Freshmatt Grocery'
+			md_bg_color: [0, 128/255, 128/255, 1]
+			left_action_items: [['menu', lambda x: print('menu')]]
+			right_action_items: [['account-circle', lambda x: print('user')]]
+		
+		ScrollView:
+			MDGridLayout:
+				cols: 2
+				size_hint_y: 2.4
+				padding:0, '5dp'
+
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					padding:0,0, '5dp',0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/eggs.jpeg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Eggs'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/cabbage.jpeg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Cabbage'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					padding:0,0, '5dp',0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/avocado.jpeg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Avocado'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/spinach.jpg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Spinach'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					padding:0,0, '5dp',0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/apple.jpg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Apple'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/kales.jpeg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Kales'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					padding:0,0, '5dp',0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/tomato.jpeg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Tomatoes'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/dania.jpeg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Dania'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					padding:0,0, '5dp',0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/mangoes.jpeg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Mangoes'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/kunde.jpeg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Kunde'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					padding:0,0, '5dp',0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/oranges.jpeg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Oranges'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+				MDCard:
+					size_hint: .5, .3
+					elevation:0
+					MDBoxLayout:
+						orientation: 'vertical'
+						Image:
+							source: './img/managu.jpeg'
+							allow_stretch: True
+					        keep_ratio: False
+					        size_hint_x: None
+					        width: self.parent.width
+					        size_hint_y: .6
+						MDLabel:
+							text: 'Managu'
+							size_hint_y: .2
+							font_style: 'H6'
+							halign: 'center'
+
+
+		MDBottomAppBar:
+			md_bg_color: [0, 128/255, 128/255, 1]
+			MDToolbar:
+				left_action_items: [['basket', lambda x: print('more')], ['magnify', lambda x: print('search')]]
+				right_action_items: [['information', lambda x: print('about')], ['share-variant', lambda x: print('share')]]
+
+				type: 'bottom'
+				icon: 'phone-dial'
+				icon_color: [0, 128/255, 128/255, 1]
